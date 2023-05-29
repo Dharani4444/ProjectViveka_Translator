@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 
 translator = LibreTranslateAPI()
 
-pdfFileObj = open('ab.pdf','rb')
+pdfFileObj = open('sample.pdf','rb')
 pdfreader = PdfReader(pdfFileObj)
 pdf = FPDF()
 pages = len(pdfreader.pages)
